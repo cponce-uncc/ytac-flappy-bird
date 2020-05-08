@@ -1,0 +1,501 @@
+15:52:31.329 [main                     ] DEBUG GameApplication      - Logger initialized
+15:52:31.334 [main                     ] DEBUG GameApplication      - Logging settings
+Title: YTAC Flappy Bird Project
+Version: 1.0
+Width: 1920
+Height: 1080
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+15:52:31.643 [JavaFX Application Thread] DEBUG GameApplication      - Initializing FXGL
+15:52:31.649 [JavaFX Application Thread] INFO  Engine               - FXGL-11.8 (08.03.2020 09.09) on WINDOWS (J:14.0.1 FX:13.0.2)
+15:52:31.649 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+15:52:31.649 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+15:52:31.743 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+15:52:31.743 [JavaFX Application Thread] DEBUG MainWindow           - Target size > screen size
+15:52:31.784 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1920.0 x 1080.0
+15:52:31.784 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1823.0 x 1039.0
+15:52:31.784 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (0.9494791666666667, 0.962037037037037)
+15:52:31.785 [JavaFX Application Thread] DEBUG MainWindow           - Set initial scene to FXGLStartupScene
+15:52:31.791 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+15:52:31.856 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (16.0, 39.0)
+15:52:31.856 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1823.0 x 1039.0
+15:52:31.856 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (0.9494791666666667, 0.962037037037037)
+15:52:31.857 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1823.0 x 1039.0
+15:52:31.857 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1839.0 x 1078.0
+15:52:31.862 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+15:52:31.884 [FXGL Background Thread 1 ] DEBUG WindowService        - Applying CSS: fxgl_dark.css
+15:52:31.884 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/ui/css/fxgl_dark.css
+15:52:31.919 [FXGL Background Thread 1 ] DEBUG WindowService        - Initializing application scenes
+15:52:31.945 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+15:52:31.981 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=1080, physics.ppm=50.0
+15:52:31.983 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1920x1080
+15:52:31.988 [FXGL Background Thread 1 ] DEBUG Input                - Registered new binding: Resume - Esc
+15:52:31.992 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/textures/pause_menu_bg.png
+15:52:32.028 [FXGL Background Thread 1 ] DEBUG Input                - Registered new binding: Pause - Esc
+15:52:32.028 [FXGL Background Thread 1 ] DEBUG WindowService        - Application scenes initialized
+15:52:32.035 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+15:52:32.039 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: C:\Users\Cristian\IdeaProjects\FlappyBird\system\fxgl.bundle
+15:52:32.043 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+15:52:32.044 [FXGL Background Thread 1 ] INFO  Engine               - FXGL initialization took: 0.180 sec
+15:52:32.045 [FXGL Background Thread 1 ] DEBUG GameApplication      - Loading localizations
+15:52:32.046 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/properties/languages/english.properties
+15:52:32.047 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/properties/languages/french.properties
+15:52:32.048 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/properties/languages/german.properties
+15:52:32.049 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/properties/languages/hungarian.properties
+15:52:32.050 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/properties/languages/russian.properties
+15:52:32.051 [FXGL Background Thread 1 ] DEBUG GameApplication      - Registering font factories with UI factory
+15:52:32.051 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/ui/fonts/VarelaRound-Regular.ttf
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - Logging environment variables
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - achievements: []
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - language: ObjectProperty [value: ENGLISH]
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - isCloseConfirmation: false
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - isProfilingEnabled: false
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - soundNotification: core/notification.wav
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - devShowBBoxProperty: BooleanProperty [value: false]
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - pixelsPerMeter: 50.0
+15:52:35.045 [FXGL Background Thread 2 ] DEBUG Engine               - soundMenuBack: menu/back.wav
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - appIcon: fxgl_icon.png
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isFullScreenAllowed: false
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isIntroEnabled: false
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - fontMono: lucida_console.ttf
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - soundMenuSelect: menu/select.wav
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isWindows: true
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isMobile: false
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isUserProfileEnabled: false
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - height: 1080
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isExperimentalNative: false
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - settings: Title: YTAC Flappy Bird Project
+Version: 1.0
+Width: 1920
+Height: 1080
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - isSingleStep: false
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - cSSList: [fxgl_dark.css]
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - fontGame: Abel-Regular.ttf
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - menuKey: ESCAPE
+15:52:35.046 [FXGL Background Thread 2 ] DEBUG Engine               - devShowPositionProperty: BooleanProperty [value: false]
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - versionCheckDays: 7
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - configClass: Optional.empty
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - isFullScreenFromStart: false
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - version: 1.0
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - fullScreen: BooleanProperty [value: false]
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - randomSeed: -1
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - gameDifficultyProperty: ObjectProperty [value: MEDIUM]
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - applicationMode: DEVELOPER
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - isMac: false
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - isMenuEnabled: false
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - profileName: StringProperty [value: DEFAULT]
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - urlPOM: https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - notificationViewClass: class com.almasb.fxgl.notification.view.XboxNotificationView
+15:52:35.047 [FXGL Background Thread 2 ] DEBUG Engine               - devSensorColorProperty: ObjectProperty [value: 0xffff00ff]
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - sceneFactory: com.almasb.fxgl.app.scene.SceneFactory@1f5b2cf8
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - stageStyle: DECORATED
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - isManualResizeEnabled: false
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - title: YTAC Flappy Bird Project
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - platform: WINDOWS
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - devBBoxColorProperty: ObjectProperty [value: 0xff0000ff]
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - gameDifficulty: MEDIUM
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - isDesktop: true
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - supportedLanguages: [ENGLISH, FRENCH, GERMAN, HUNGARIAN, RUSSIAN]
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - credits: []
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - globalMusicVolumeProperty: DoubleProperty [value: 0.5]
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - isPreserveResizeRatio: false
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - fontText: Courier-Prime.ttf
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - isExperimentalTiledLargeMap: false
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - secondsIn24h: 60
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - runtimeInfo: RuntimeInfo(platform=WINDOWS, version=11.8, build=08.03.2020 09.09)
+15:52:35.048 [FXGL Background Thread 2 ] DEBUG Engine               - isLinux: false
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - soundMenuPress: menu/press.wav
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - urlGithub: https://github.com/AlmasB/FXGL
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - profileDir: profiles/
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - isDeveloperMenuEnabled: false
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - globalSoundVolumeProperty: DoubleProperty [value: 0.5]
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - mainWindow: com.almasb.fxgl.app.MainWindow@1b64abcb
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - isBrowser: false
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - urlLeaderboard: http://fxgl-top.herokuapp.com/
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - globalSoundVolume: 0.5
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - engineServices: [class com.almasb.fxgl.app.GameApplication$GameApplicationService, class com.almasb.fxgl.app.services.WindowService, class com.almasb.fxgl.app.services.FXGLDialogService, class com.almasb.fxgl.app.services.IOTaskExecutorService, class com.almasb.fxgl.event.EventBusService, class com.almasb.fxgl.io.FileSystemService, class com.almasb.fxgl.localization.LocalizationService, class com.almasb.fxgl.app.services.AssetLoaderService, class com.almasb.fxgl.app.services.SystemBundleService, class com.almasb.fxgl.profile.SaveLoadService, class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider, class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider, class com.almasb.fxgl.audio.AudioPlayer, class com.almasb.fxgl.notification.impl.NotificationServiceProvider, class com.almasb.fxgl.achievement.AchievementService, class com.almasb.fxgl.cutscene.CutsceneService, class com.almasb.fxgl.minigames.MiniGameService, class com.almasb.fxgl.net.NetService, class com.almasb.fxgl.app.services.UpdaterService]
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - globalMusicVolume: 0.5
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - width: 1920
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - saveFileExt: sav
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - isAndroid: false
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - fontUI: VarelaRound-Regular.ttf
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - enabledMenuItems: []
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - isIOS: false
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - Logging services
+15:52:35.049 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.GameApplication$GameApplicationService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.services.WindowService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLDialogService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.services.IOTaskExecutorService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.event.EventBusService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.io.FileSystemService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.localization.LocalizationService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.services.AssetLoaderService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.services.SystemBundleService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.profile.SaveLoadService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.audio.AudioPlayer
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.notification.impl.NotificationServiceProvider
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.achievement.AchievementService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.cutscene.CutsceneService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.minigames.MiniGameService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.net.NetService
+15:52:35.050 [FXGL Background Thread 2 ] DEBUG Engine               - class com.almasb.fxgl.app.services.UpdaterService
+15:52:40.076 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/ui/fonts/Abel-Regular.ttf
+15:52:40.082 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/ui/fonts/lucida_console.ttf
+15:52:40.091 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/ui/fonts/Courier-Prime.ttf
+15:52:40.101 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Jump - Space
+15:52:40.101 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from file system: /assets/textures/fxgl_icon.png
+15:52:40.117 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from file system: /assets/ui/cursors/fxgl_default.png
+15:52:40.119 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+15:52:40.119 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+15:52:40.119 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+15:52:40.119 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+15:52:40.132 [JavaFX Application Thread] DEBUG FXGLStartupScene     - STARTUP
+15:52:40.132 [JavaFX Application Thread] DEBUG WindowService        - Starting new game
+15:52:40.134 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:52:40.142 [JavaFX Application Thread] DEBUG WindowService        - Removing overlay from FXGLStartupScene and adding to FXGLLoadingScene
+15:52:40.142 [JavaFX Application Thread] DEBUG MainWindow           - FXGLStartupScene -> FXGLLoadingScene
+15:52:40.142 [JavaFX Application Thread] DEBUG WindowService        - Clearing previous game
+15:52:40.142 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+15:52:40.142 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+15:52:40.142 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+15:52:40.143 [FXGL Background Thread 1 ] DEBUG GameApplication      - Initializing game
+15:52:40.144 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/music/bgm.mp3
+15:52:40.268 [FXGL Background Thread 1 ] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@a534794
+15:52:40.274 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from file system: /assets/textures/bird.png
+15:52:40.290 [FXGL Background Thread 1 ] INFO  GameApplication      - Game initialization took: 0.146 sec
+15:52:40.290 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:52:40.301 [JavaFX Application Thread] DEBUG WindowService        - Removing overlay from FXGLLoadingScene and adding to GameScene
+15:52:40.301 [JavaFX Application Thread] DEBUG MainWindow           - FXGLLoadingScene -> GameScene
+15:52:41.116 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:41.117 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from file system: /assets/sounds/jump.wav
+15:52:41.190 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:41.478 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:41.479 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:41.578 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:41.784 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:41.784 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:41.879 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:42.141 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:42.141 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:42.276 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:42.751 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:42.752 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:42.863 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:43.160 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:43.160 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:43.236 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:43.664 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:43.664 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:43.773 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:44.024 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:44.024 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:44.148 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:44.444 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:44.444 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:44.521 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:44.897 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:44.897 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:44.959 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:45.139 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:45.139 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:45.221 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:45.318 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:45.318 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:45.390 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:45.821 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:45.821 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:45.908 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:46.286 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:46.286 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:46.376 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:46.915 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:46.915 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:47.016 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:47.137 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:47.137 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:47.237 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:47.481 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:47.481 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:47.597 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:47.853 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:47.854 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:47.964 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:48.179 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:48.180 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:48.271 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:48.655 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:48.655 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:48.791 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:49.189 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:49.189 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:49.323 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:49.642 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:49.642 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:49.759 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:50.023 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:50.023 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:50.139 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:50.472 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:50.472 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:50.582 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:50.751 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:50.751 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:50.854 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:51.096 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:51.097 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:51.173 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:51.737 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:51.737 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:51.838 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:52.318 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:52.318 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:52.428 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:52.743 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:52.743 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:52.805 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:53.192 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:53.192 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:53.278 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:53.387 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:53.387 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:53.495 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:53.734 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:53.734 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:53.845 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:53.949 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:53.949 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:54.043 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:54.134 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:54.134 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:54.169 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:54.695 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:54.695 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:54.799 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:55.036 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:55.037 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:55.134 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:55.479 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:55.480 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:55.571 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:55.641 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:55.641 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:55.759 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:56.070 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:56.070 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:56.184 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:56.550 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:56.550 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:56.680 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:56.890 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:56.890 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:56.996 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:57.574 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:57.575 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:57.653 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:57.843 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:57.843 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:57.936 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:58.156 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:58.156 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:58.255 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:58.336 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:58.336 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:58.438 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:58.683 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:58.683 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:58.795 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:59.114 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:59.114 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:59.198 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:52:59.855 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:52:59.855 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:52:59.954 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:00.053 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:00.053 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:00.096 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:00.427 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:00.428 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:00.549 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:00.999 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:00.999 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:01.133 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:01.289 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:01.289 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:01.386 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:01.710 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:01.710 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:01.818 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:02.078 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:02.078 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:02.181 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:02.284 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:02.284 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:02.378 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:02.634 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:02.634 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:02.743 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:03.097 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:03.097 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:03.203 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:03.268 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:03.268 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:03.376 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:03.770 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:03.770 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:03.841 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:04.397 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:04.397 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:04.500 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:04.752 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:04.753 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:04.838 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:05.163 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:05.163 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:05.278 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:05.703 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:05.703 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:05.805 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:05.895 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:05.895 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:05.983 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:06.204 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:06.204 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:06.309 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:06.419 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:06.419 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:06.490 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:06.780 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:06.780 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:06.889 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:07.534 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:07.534 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:07.649 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:07.790 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:07.791 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:07.892 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:07.984 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:07.984 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:08.089 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:08.576 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:08.576 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:08.665 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:08.756 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:08.756 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:08.845 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:09.135 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:09.135 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:09.232 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:09.705 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:09.705 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:09.839 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:10.254 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:10.254 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:10.357 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:10.478 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:10.478 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:10.616 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:10.872 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:10.872 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:10.982 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:11.100 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:11.100 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:11.197 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:11.688 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:11.688 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:11.768 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:12.010 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:12.010 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:12.099 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:12.214 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:12.215 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:12.308 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:12.565 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:12.565 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:12.627 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:12.990 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:12.990 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:13.096 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:13.584 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:13.584 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:13.683 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:13.774 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:13.774 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:13.852 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:14.223 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:14.223 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:14.326 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:14.750 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:14.750 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:14.858 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:15.279 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:15.279 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:15.413 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:15.523 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:15.523 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:15.601 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:15.844 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:15.844 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:15.975 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:16.260 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:16.260 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:16.371 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:16.437 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:16.437 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:16.539 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:16.961 [JavaFX Application Thread] DEBUG WindowService        - Starting new game
+15:53:16.961 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:53:16.969 [JavaFX Application Thread] DEBUG WindowService        - Removing overlay from GameScene and adding to FXGLLoadingScene
+15:53:16.969 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> FXGLLoadingScene
+15:53:16.969 [JavaFX Application Thread] DEBUG WindowService        - Clearing previous game
+15:53:16.969 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+15:53:16.969 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+15:53:16.977 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+15:53:16.978 [FXGL Background Thread 1 ] DEBUG GameApplication      - Initializing game
+15:53:16.978 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from cache: /assets/textures/bird.png
+15:53:16.979 [FXGL Background Thread 1 ] INFO  GameApplication      - Game initialization took: 0.001 sec
+15:53:16.980 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:53:16.984 [JavaFX Application Thread] DEBUG WindowService        - Removing overlay from FXGLLoadingScene and adding to GameScene
+15:53:16.985 [JavaFX Application Thread] DEBUG MainWindow           - FXGLLoadingScene -> GameScene
+15:53:16.998 [JavaFX Application Thread] DEBUG Input                - Mocking key press: Space
+15:53:16.998 [JavaFX Application Thread] DEBUG AssetLoaderService   - Loading from cache: /assets/sounds/jump.wav
+15:53:17.133 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Space
+15:53:18.480 [JavaFX Application Thread] DEBUG WindowService        - Starting new game
+15:53:18.480 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:53:18.483 [JavaFX Application Thread] DEBUG WindowService        - Removing overlay from GameScene and adding to FXGLLoadingScene
+15:53:18.483 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> FXGLLoadingScene
+15:53:18.483 [JavaFX Application Thread] DEBUG WindowService        - Clearing previous game
+15:53:18.483 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+15:53:18.483 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+15:53:18.484 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+15:53:18.484 [FXGL Background Thread 1 ] DEBUG GameApplication      - Initializing game
+15:53:18.485 [FXGL Background Thread 1 ] DEBUG AssetLoaderService   - Loading from cache: /assets/textures/bird.png
+15:53:18.485 [FXGL Background Thread 1 ] INFO  GameApplication      - Game initialization took: 0.001 sec
+15:53:18.486 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:53:18.488 [JavaFX Application Thread] DEBUG WindowService        - Removing overlay from FXGLLoadingScene and adding to GameScene
+15:53:18.488 [JavaFX Application Thread] DEBUG MainWindow           - FXGLLoadingScene -> GameScene
+15:53:18.605 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+15:53:18.605 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+15:53:18.605 [JavaFX Application Thread] DEBUG SystemBundleService  - Saving FXGL system data
+15:53:18.606 [JavaFX Application Thread] DEBUG FileSystemAccess     - Writing to: C:\Users\Cristian\IdeaProjects\FlappyBird\system\fxgl.bundle
+15:53:18.607 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+15:53:18.607 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX
